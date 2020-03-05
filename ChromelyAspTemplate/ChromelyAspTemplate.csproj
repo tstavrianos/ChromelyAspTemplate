@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetPlatformIdentifier>win-x64;linux-x64;osx-x64</TargetPlatformIdentifier>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ChromelyAspTemplate</RootNamespace>
+    <Platforms>x64</Platforms>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Chromely" Version="5.0.77.1" />
+  </ItemGroup>
+
+</Project>
